@@ -1,0 +1,22 @@
+{
+    "name": "yangyang54549/suning-cps",
+    "description": "苏宁cps包",
+    "type": "project",
+    "keywords": [
+      "suning",
+      "cps"
+    ],
+    "authors": [
+        {
+            "name": "yang",
+            "email": "lxygoo@163.com"
+        }
+    ],
+    "require": {},
+    "repositories": {
+      "packagist": {
+        "type": "composer",
+        "url": "https://mirrors.aliyun.com/composer/"
+      }
+    }
+}
