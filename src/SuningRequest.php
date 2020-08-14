@@ -5,7 +5,7 @@ namespace Suning\Sdk;
  * 苏宁开放平台接口 - 接口调用请求抽象类
  */
 abstract class SuningRequest {
-	protected $apiParams = array();
+	private $apiParams = array();
 	/**
 	 * 是否参数校验(默认false,测试及生产建议为true)
 	 */

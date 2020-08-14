@@ -1,10 +1,9 @@
 <?php
-/**
- * 苏宁开放平台接口 - 更新外部会员等级接口
- *
- * @author suning
- * @date   2016-7-12
- */
+namespace Suning\Sdk\Request\Netalliance;
+
+use Suning\Sdk\SuningRequest;
+use Suning\Sdk\RequestCheckUtil;
+
 class ExtLevelModifyRequest  extends SuningRequest{
 	
 	/**

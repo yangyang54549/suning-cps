@@ -12,9 +12,7 @@ class UnionInfomationQueryRequest  extends SelectSuningRequest{
 	 * 
 	 */
 	private $adBookId;
-	
-	
-	
+
 	public function getAdBookId() {
 		return $this->adBookId;
 	}

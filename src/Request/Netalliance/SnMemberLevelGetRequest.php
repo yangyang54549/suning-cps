@@ -1,10 +1,9 @@
 <?php
-/**
- * 苏宁开放平台接口 - 查询苏宁会员等级
- *
- * @author suning
- * @date   2016-7-12
- */
+namespace Suning\Sdk\Request\Netalliance;
+
+use Suning\Sdk\SuningRequest;
+use Suning\Sdk\RequestCheckUtil;
+
 class SnMemberLevelGetRequest  extends SuningRequest{
 	
 	/**

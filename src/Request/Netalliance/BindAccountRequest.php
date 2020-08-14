@@ -1,10 +1,9 @@
 <?php
-/**
- * 苏宁开放平台接口 - 绑定第三方账号与苏宁账号
- *
- * @author suning
- * @date   2016-7-12
- */
+namespace Suning\Sdk\Request\Netalliance;
+
+use Suning\Sdk\SuningRequest;
+use Suning\Sdk\RequestCheckUtil;
+
 class BindAccountRequest  extends SuningRequest{
 	
 	/**
