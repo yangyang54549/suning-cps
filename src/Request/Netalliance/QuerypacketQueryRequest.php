@@ -41,4 +41,3 @@ class QuerypacketQueryRequest  extends SuningRequest{
 	
 }
 
-?>

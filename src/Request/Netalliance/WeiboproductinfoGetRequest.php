@@ -55,4 +55,3 @@ class WeiboproductinfoGetRequest  extends SuningRequest{
 	
 }
 
-?>

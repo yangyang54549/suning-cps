@@ -41,4 +41,3 @@ class OrdersettlenewGetRequest  extends SuningRequest{
 	
 }
 
-?>

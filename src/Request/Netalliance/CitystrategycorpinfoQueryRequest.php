@@ -47,4 +47,3 @@ class CitystrategycorpinfoQueryRequest  extends SelectSuningRequest{
 	
 }
 
-?>

@@ -72,4 +72,3 @@ class OrderinfoQueryRequest  extends SelectSuningRequest{
 	
 }
 
-?>

@@ -77,4 +77,3 @@ class LeaderorderQueryRequest  extends SelectSuningRequest{
 	
 }
 
-?>

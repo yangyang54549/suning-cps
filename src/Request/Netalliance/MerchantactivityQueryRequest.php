@@ -30,4 +30,3 @@ class MerchantactivityQueryRequest  extends SelectSuningRequest{
 	
 }
 
-?>

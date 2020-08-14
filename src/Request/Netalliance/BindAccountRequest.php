@@ -70,4 +70,3 @@ class BindAccountRequest  extends SuningRequest{
 	
 }
 
-?>

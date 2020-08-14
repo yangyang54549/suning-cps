@@ -110,4 +110,3 @@ class RecommendcommodityQueryRequest  extends SuningRequest{
 	
 }
 
-?>

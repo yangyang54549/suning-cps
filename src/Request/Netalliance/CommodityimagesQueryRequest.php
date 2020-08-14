@@ -70,4 +70,3 @@ class CommodityimagesQueryRequest  extends SuningRequest{
 	
 }
 
-?>

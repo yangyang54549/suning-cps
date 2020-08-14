@@ -41,4 +41,3 @@ class UnionInfomationGetRequest  extends SuningRequest{
 	
 }
 
-?>

@@ -124,4 +124,3 @@ class InverstmentcommodityQueryRequest  extends SuningRequest{
 	
 }
 
-?>

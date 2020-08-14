@@ -62,4 +62,3 @@ class TwittersuccessQueryRequest  extends SelectSuningRequest{
 	
 }
 
-?>

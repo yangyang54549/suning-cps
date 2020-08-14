@@ -56,4 +56,3 @@ class PromotionCreateRequest  extends SuningRequest{
 	
 }
 
-?>

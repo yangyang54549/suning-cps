@@ -90,4 +90,3 @@ class ChannelorderQueryRequest  extends SelectSuningRequest{
 	
 }
 
-?>

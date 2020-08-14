@@ -60,4 +60,3 @@ class MerchantcommodityQueryRequest  extends SelectSuningRequest{
 	
 }
 
-?>

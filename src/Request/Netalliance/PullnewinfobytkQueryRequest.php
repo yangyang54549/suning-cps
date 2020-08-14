@@ -41,4 +41,3 @@ class PullnewinfobytkQueryRequest  extends SuningRequest{
 	
 }
 
-?>

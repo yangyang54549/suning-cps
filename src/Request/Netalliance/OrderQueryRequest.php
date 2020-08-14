@@ -118,4 +118,3 @@ class OrderQueryRequest  extends SelectSuningRequest{
 	
 }
 
-?>

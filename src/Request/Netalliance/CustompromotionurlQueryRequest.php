@@ -70,4 +70,3 @@ class CustompromotionurlQueryRequest  extends SuningRequest{
 	
 }
 
-?>

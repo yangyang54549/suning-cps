@@ -83,4 +83,3 @@ class ExtLevelModifyRequest  extends SuningRequest{
 	
 }
 
-?>

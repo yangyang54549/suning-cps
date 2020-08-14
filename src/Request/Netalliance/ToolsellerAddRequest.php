@@ -69,4 +69,3 @@ class ToolsellerAddRequest  extends SuningRequest{
 	
 }
 
-?>

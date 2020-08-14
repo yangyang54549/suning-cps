@@ -125,5 +125,3 @@ class MorerecommendGetRequest  extends SuningRequest{
 	}
 	
 }
-
-?>

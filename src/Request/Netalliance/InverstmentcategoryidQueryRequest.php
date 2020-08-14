@@ -26,4 +26,3 @@ class InverstmentcategoryidQueryRequest  extends SuningRequest{
 	
 }
 
-?>

@@ -87,4 +87,3 @@ class ChannelcommodityGetRequest  extends SuningRequest{
 	
 }
 
-?>

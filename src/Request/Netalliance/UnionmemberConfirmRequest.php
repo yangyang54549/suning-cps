@@ -54,4 +54,3 @@ class UnionmemberConfirmRequest  extends SuningRequest{
 	
 }
 
-?>

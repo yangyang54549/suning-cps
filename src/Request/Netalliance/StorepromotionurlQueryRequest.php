@@ -98,4 +98,3 @@ class StorepromotionurlQueryRequest  extends SuningRequest{
 	
 }
 
-?>

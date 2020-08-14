@@ -56,4 +56,3 @@ class ThirdpartyproductQueryRequest  extends SuningRequest{
 	
 }
 
-?>

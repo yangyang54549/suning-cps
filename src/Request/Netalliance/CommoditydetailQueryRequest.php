@@ -96,5 +96,3 @@ class CommoditydetailQueryRequest  extends SuningRequest{
 	}
 	
 }
-
-?>

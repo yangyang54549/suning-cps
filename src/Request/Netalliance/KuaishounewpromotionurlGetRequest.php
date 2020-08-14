@@ -83,4 +83,3 @@ class KuaishounewpromotionurlGetRequest  extends SuningRequest{
 	
 }
 
-?>

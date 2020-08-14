@@ -98,4 +98,3 @@ class AppletextensionlinkGetRequest  extends SuningRequest{
 	
 }
 
-?>

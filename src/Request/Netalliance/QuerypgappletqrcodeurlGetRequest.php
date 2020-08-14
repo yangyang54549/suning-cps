@@ -70,4 +70,3 @@ class QuerypgappletqrcodeurlGetRequest  extends SuningRequest{
 	
 }
 
-?>
