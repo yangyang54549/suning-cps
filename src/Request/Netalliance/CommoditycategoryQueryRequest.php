@@ -5,7 +5,7 @@ use Suning\Sdk\SuningRequest;
 
 class CommoditycategoryQueryRequest  extends SuningRequest{
 
-    private $apiParams = array();
+    protected $apiParams = array();
 
     private $grade;
 
