@@ -1,8 +1,9 @@
 <?php
+namespace Suning\Sdk\Request\Netalliance;
+
+use Suning\Sdk\SelectSuningRequest;
+
 /**
- * 苏宁开放平台接口 - 
- *
- * @author suning
  * @date   2016-11-30
  */
 class MerchantactivityQueryRequest  extends SelectSuningRequest{

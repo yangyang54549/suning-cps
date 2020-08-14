@@ -1,8 +1,9 @@
 <?php
+namespace Suning\Sdk\Request\Netalliance;
+
+use Suning\Sdk\SelectSuningRequest;
+
 /**
- * 苏宁开放平台接口 - 
- *
- * @author suning
  * @date   2020-3-31
  */
 class OrderinfoQueryRequest  extends SelectSuningRequest{

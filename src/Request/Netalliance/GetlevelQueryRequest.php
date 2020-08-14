@@ -1,8 +1,9 @@
 <?php
+namespace Suning\Sdk\Request\Netalliance;
+
+use Suning\Sdk\SuningRequest;
+use Suning\Sdk\RequestCheckUtil;
 /**
- * 苏宁开放平台接口 - 
- *
- * @author suning
  * @date   2018-11-16
  */
 class GetlevelQueryRequest  extends SuningRequest{

@@ -1,8 +1,10 @@
 <?php
+namespace Suning\Sdk\Request\Netalliance;
+
+use Suning\Sdk\SuningRequest;
+use Suning\Sdk\RequestCheckUtil;
+
 /**
- * 苏宁开放平台接口 - 
- *
- * @author suning
  * @date   2019-8-1
  */
 class ChannelcommodityGetRequest  extends SuningRequest{
