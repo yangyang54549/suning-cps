@@ -19,7 +19,7 @@ class DefaultSuningClient {
 	/**
 	 * 服务器访问地址
 	 */
-	private $serverUrl = 'http://openpre.cnsuning.com/api/http/sopRequest';
+	private $serverUrl = 'https://open.suning.com/api/http/sopRequest';
 
 	/**
 	 * 请求、响应格式
@@ -67,7 +67,7 @@ class DefaultSuningClient {
 		unset($k, $v);
 		$signMethod = self::$signMethod;
 		$signString = $signMethod($signString);
-		
+
 		// 组装头文件信息
 		$signDataHeader = array(
 			"Content-Type: text/xml; charset=utf-8",
@@ -80,11 +80,11 @@ class DefaultSuningClient {
 			"User-Agent: " . self::$userAgent,
 			"Sdk-Version: " . self::$sdkVersion
 		);
-		
+
 		if(! empty(self::$accessToken)){
 			$signDataHeader[] = 'access_token:' . self::$accessToken;
 		}
-		
+
 		return $signDataHeader;
 	}
 
@@ -107,15 +107,15 @@ class DefaultSuningClient {
 		curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, self::$connectTimeout);
 		curl_setopt($ch, CURLOPT_POST, true);
 		curl_setopt($ch, CURLOPT_POSTFIELDS, $postFields);
-		
+
 		// https 请求
 		if(strlen($url) > 5 && strtolower(substr($url, 0, 5)) == "https"){
 			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 			curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
 		}
-		
+
 		$response = curl_exec($ch);
-		
+
 		if(curl_errno($ch)){
 			throw new \Exception(curl_error($ch), 0);
 		}else{
@@ -142,7 +142,7 @@ class DefaultSuningClient {
 				print_r($e ->__toString());
 			}
 		}
-		
+
 		// 获取业务参数
 		$paramsArray = $request -> getApiParams();
 		if(empty($paramsArray)){
@@ -156,7 +156,7 @@ class DefaultSuningClient {
 		}else{
 			$apiParams = ArrayToXML::parse($paramsArray["sn_request"],"sn_request");
 		}
-		
+
 		// 组装系统参数
 		$sysParams["secret_key"] = $this -> appSecret;
 		$sysParams["method"] = $request -> getApiMethodName();
@@ -164,7 +164,7 @@ class DefaultSuningClient {
 		$sysParams["app_key"] = $this -> appKey;
 		$sysParams["api_version"] = self::$apiVersion;
 		$sysParams["post_field"] = base64_encode($apiParams);
-		
+
 		// 头信息(内含签名)
 		$signHeader = self::generateSignHeader($sysParams);
 
@@ -179,14 +179,14 @@ class DefaultSuningClient {
 			unset($k, $v);
 		}
 		unset($sysParams);
-		
+
 		// 发起HTTP请求
 		try{
 			$resp = self::curl($this -> serverUrl."/".$request -> getApiMethodName(), $apiParams, $signHeader);
 		}catch(\Exception $e){
 			print_r($e ->__toString());
 		}
-		
+
 		return $resp;
 	}
 
