@@ -32,7 +32,7 @@ class DefaultSuningClient {
 
 	private static $signMethod = "md5";
 
-	private static $connectTimeout = 5;
+	private static $connectTimeout = 10;
 
 	private static $readTimeout = 30;
 
