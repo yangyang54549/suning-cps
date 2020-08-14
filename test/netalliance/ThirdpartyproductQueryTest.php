@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
 $req = new ThirdpartyproductQueryRequest();
 //赋值……
 $req->setDetailUrl("https://product.suning.com/0000000000/11222350513.html");

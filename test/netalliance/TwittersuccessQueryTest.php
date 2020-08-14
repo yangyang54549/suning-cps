@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
 $req = new TwittersuccessQueryRequest();
 //赋值……
 $req->setBeginDate("2019-10-09");

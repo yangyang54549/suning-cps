@@ -6,7 +6,7 @@
 
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/sale/FreighttemplateAddRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/sale/FreighttemplateAddRequest.php');
 
 $req = new FreighttemplateAddRequest();
 $req -> setFreightTemplateName("xu2");

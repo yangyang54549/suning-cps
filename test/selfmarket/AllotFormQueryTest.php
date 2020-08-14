@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/selfmarket/AllotFormQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/selfmarket/AllotFormQueryRequest.php');
 $req = new AllotFormQueryRequest();
 //赋值……
 $req->setStartTime("20151124");

@@ -6,7 +6,7 @@
 
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/inventory/ParallelinventoryGetRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/inventory/ParallelinventoryGetRequest.php');
 
 $req = new ParallelinventoryGetRequest();
 $req -> setInvCode("1000144");

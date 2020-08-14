@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/selfmarket/OrderStatusQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/selfmarket/OrderStatusQueryRequest.php');
 $req = new OrderStatusQueryRequest();
 //赋值……
 $req->setOrderSource("201");

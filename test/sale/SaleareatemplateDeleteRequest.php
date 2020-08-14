@@ -5,7 +5,7 @@
  */
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/sale/SaleareatemplateDeleteRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/sale/SaleareatemplateDeleteRequest.php');
 
 $req = new SaleareatemplateDeleteRequest();
 $req -> setTemplateId("090304ae289945cfb5dad59589781c2c4689e469efa44312");

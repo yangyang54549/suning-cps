@@ -6,7 +6,7 @@
 
 // 引入主文件
 require_once ('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/refund/DelayrefundModifyRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/refund/DelayrefundModifyRequest.php');
 
 $req = new DelayrefundModifyRequest();
 $refundHead = new RefundHead();

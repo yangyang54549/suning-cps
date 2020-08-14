@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/selfmarket/AgreerefundModifyRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/selfmarket/AgreerefundModifyRequest.php');
 $req = new AgreerefundModifyRequest();
 //赋值……
 $req->setOmsOrderItemNo("00004849094302");

@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/promotesale/QueryFreeFreightRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/promotesale/QueryFreeFreightRequest.php');
 $req = new QueryFreeFreightRequest();
 //赋值……
 $req->setPromotionRangeCode("1212");

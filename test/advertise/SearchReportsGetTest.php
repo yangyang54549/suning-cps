@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/advertise/SearchReportsGetRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/advertise/SearchReportsGetRequest.php');
 $req = new SearchReportsGetRequest();
 //赋值……
 $req->setPromotionUnitId("20160621001");

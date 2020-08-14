@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/selfmarket/FactoryServiceQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/selfmarket/FactoryServiceQueryRequest.php');
 $req = new FactoryServiceQueryRequest();
 //赋值……
 $req->setRecordGuId("1");

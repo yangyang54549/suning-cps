@@ -6,7 +6,7 @@
 
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/refund/SinglerejectedGetRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/refund/SinglerejectedGetRequest.php');
 
 $req = new SinglerejectedGetRequest(); 
 $req -> setOrderCode("2000724526");

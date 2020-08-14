@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/sale/ItemsaleareaAddRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/sale/ItemsaleareaAddRequest.php');
 
 $req = new ItemsaleareaAddRequest();
 //赋值……

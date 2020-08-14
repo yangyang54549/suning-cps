@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
 $req = new RefundordersyncCreateRequest();
 //赋值……
 $req->setCreateDate("2018-10-10 18:09:09");

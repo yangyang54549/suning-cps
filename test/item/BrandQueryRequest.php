@@ -6,7 +6,7 @@
 
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/item/BrandQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/item/BrandQueryRequest.php');
 
 $req = new BrandQueryRequest(); 
 $req -> setBrandName("苏宁电器");

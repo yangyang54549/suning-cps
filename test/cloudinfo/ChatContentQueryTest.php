@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/cloudinfo/ChatContentQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/cloudinfo/ChatContentQueryRequest.php');
 $req = new ChatContentQueryRequest();
 //赋值……
 $req->setChatId("112121");

@@ -6,7 +6,7 @@
 
 // 引入主文件
 require_once ('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/item/BookItemAddRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/item/BookItemAddRequest.php');
 
 $req = new BookItemAddRequest();
 $req -> setCategoryCode("dda");

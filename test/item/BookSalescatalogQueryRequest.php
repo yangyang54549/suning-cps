@@ -6,7 +6,7 @@
 
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/item/BookSalescatalogQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/item/BookSalescatalogQueryRequest.php');
 
 $req = new BookSalescatalogQueryRequest(); 
 //api入参校验逻辑开关，当测试稳定之后建议设置为 false 或者删除该行

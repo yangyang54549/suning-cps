@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/swl/ProductRealStorageGetRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/swl/ProductRealStorageGetRequest.php');
 $req = new ProductRealStorageGetRequest();
 //赋值……
 $req->setOrderId("2000021784444");

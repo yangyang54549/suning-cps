@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/factoryorder/SaleOrderQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/factoryorder/SaleOrderQueryRequest.php');
 $req = new SaleOrderQueryRequest();
 //赋值……
 $req->setStartTime("2016-03-29 23:06:10");

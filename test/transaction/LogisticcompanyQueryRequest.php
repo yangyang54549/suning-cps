@@ -8,7 +8,7 @@
 // 引入主文件
 require_once('../../SuningSdk.php');
 require_once('../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/transaction/LogisticcompanyQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/transaction/LogisticcompanyQueryRequest.php');
 $req = new LogisticcompanyQueryRequest();
 //赋值……
 $req->setPageNo('1');

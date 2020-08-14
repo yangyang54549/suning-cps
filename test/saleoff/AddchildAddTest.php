@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/saleoff/AddchildAddRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/saleoff/AddchildAddRequest.php');
 $req = new AddchildAddRequest();
 //赋值……
 $req->setBarpic("http://10.19.95.100/uimg/sop/commodity/201311290550007674_x.jpg");

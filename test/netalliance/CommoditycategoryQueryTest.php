@@ -1,26 +1,16 @@
 <?php
-/**
- * 
- *
- * @author suning
- * @date   2019-8-1
- */
-// 引入主文件
-require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-$req = new CommoditycategoryQueryRequest();
+
+$req = new \Suning\Sdk\Request\Netalliance\CommoditycategoryQueryRequest();
 //赋值……
-$commoditycategoryList = new CommoditycategoryList();
-$commoditycategoryList->setGrade("1");
-$commoditycategoryList->setParentId(" R0103");
-$req->setCommoditycategoryList(array($commoditycategoryList));
+$req->setGrade("1");
+$req->setParentId(" R0103");
+$req->setCommoditycategoryList();
 
 //api入参校验逻辑开关，当测试稳定之后建议设置为 false 或者删除该行
 $req -> setCheckParam('true');
-$serverUrl = "http://openpre.cnsuning.com/api/http/sopRequest";
 $appKey = "a13b8bd0efb06a770c57d1c370ce8ee7";
 $appSecret = "f08ce9836c4bcfc708194594081f6690";
-$client = new DefaultSuningClient($serverUrl,$appKey,$appSecret,'json');
+$client = new \Suning\Sdk\DefaultSuningClient($appKey,$appSecret,'json');
 $resp = $client -> execute($req);
 $reqJson = getReqJson($req);
 print_r("请求报文:\n".$reqJson);
@@ -36,4 +26,3 @@ function getReqJson($req){
 	)));
 	return json_encode($paramsArray);
 }
-?>

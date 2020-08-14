@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
 $req = new SsshopcouponAddRequest();
 //赋值……
 $req->setActivityEndTime("到分 2018-01-01 00:00");

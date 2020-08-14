@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/swl/WarehouseInfoGetRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/swl/WarehouseInfoGetRequest.php');
 $req = new WarehouseInfoGetRequest();
 //赋值……
 $req->setWarehouseCode("L025");

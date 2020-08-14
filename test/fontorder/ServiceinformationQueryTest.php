@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/fontorder/ServiceinformationQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/fontorder/ServiceinformationQueryRequest.php');
 $req = new ServiceinformationQueryRequest();
 //赋值……
 $req->setEndTime("2017-07-19 14:21:35");

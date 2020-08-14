@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/advertise/PromotionPlanAddRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/advertise/PromotionPlanAddRequest.php');
 $req = new PromotionPlanAddRequest();
 //赋值……
 $req->setPromotionName("张三的推广计划");

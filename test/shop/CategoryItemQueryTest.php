@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/shop/CategoryItemQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/shop/CategoryItemQueryRequest.php');
 $req = new CategoryItemQueryRequest();
 //赋值……
 $req->setCategoryCode("100521");

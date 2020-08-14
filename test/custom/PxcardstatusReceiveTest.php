@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
 $req = new PxcardstatusReceiveRequest();
 //赋值……
 $req->setAddress("XX省XX市XX区XX地方");

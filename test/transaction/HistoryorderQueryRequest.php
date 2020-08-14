@@ -8,7 +8,7 @@
 // 引入主文件
 require_once('../../SuningSdk.php');
 require_once('../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/transaction/HistoryorderQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/transaction/HistoryorderQueryRequest.php');
 $req = new HistoryorderQueryRequest();
 //赋值……
 $req->setStartTime("2014-02-01 00:00:01");

@@ -6,7 +6,7 @@
 
 // 引入主文件
 require_once ('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/financialrecon/FinancialreconQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/financialrecon/FinancialreconQueryRequest.php');
 
 $req = new FinancialreconQueryRequest();
 $req -> setStartTime("2014-06-11 20:09:08");

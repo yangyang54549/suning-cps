@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
 $req = new ProdPoolQueryRequest();
 //赋值……
 $req->setCategoryId("6670f7e2-c5a7-4122-a980-e213a6631f4f");

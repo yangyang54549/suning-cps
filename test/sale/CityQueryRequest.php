@@ -5,7 +5,7 @@
  */
 // 引入主文件
 require_once ('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/sale/CityQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/sale/CityQueryRequest.php');
 
 $req = new CityQueryRequest();
 $req -> setNationCode("CN");

@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/swl/RefundWorkInfoGetRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/swl/RefundWorkInfoGetRequest.php');
 $req = new RefundWorkInfoGetRequest();
 //赋值……
 $req->setAppointOrderId("2000021784444");

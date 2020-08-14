@@ -6,7 +6,7 @@
 
 // 引入主文件
 require_once ('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/refund/BatchrejectedQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/refund/BatchrejectedQueryRequest.php');
 
 $req = new BatchrejectedQueryRequest();
 $req -> setStartTime("2014-06-03 20:09:08");

@@ -6,7 +6,7 @@
 
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/item/BookBrandQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/item/BookBrandQueryRequest.php');
 
 $req = new BookBrandQueryRequest(); 
 $req -> setBrandName("北京十月文艺出版社");

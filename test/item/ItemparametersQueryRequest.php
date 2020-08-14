@@ -6,7 +6,7 @@
 
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/item/ItemparametersQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/item/ItemparametersQueryRequest.php');
 
 $req = new ItemparametersQueryRequest(); 
 $req -> setCategoryCode("R5101002");

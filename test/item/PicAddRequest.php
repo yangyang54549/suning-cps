@@ -7,7 +7,7 @@
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // 引入主文件
     require_once('../../SuningSdk.php');
-	require_once(dirname(__FILE__).'/../../request/item/PicAddRequest.php');
+	require_once(dirname(__FILE__) . '/../../Request/item/PicAddRequest.php');
 
     $req = new PicAddRequest();
     // 取得上传图片的二进制流

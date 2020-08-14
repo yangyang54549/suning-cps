@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/transaction/OrderEvaluateQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/transaction/OrderEvaluateQueryRequest.php');
 $req = new OrderEvaluateQueryRequest();
 //赋值……
 //$req->setEvaluateLevel("0");

@@ -6,7 +6,7 @@
 
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/inventory/InventoryGetRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/inventory/InventoryGetRequest.php');
 
 $req = new InventoryGetRequest(); 
 $req -> setProductCode("df");

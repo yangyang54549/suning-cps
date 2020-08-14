@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/cmall/ConfirmsubtractModifyRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/cmall/ConfirmsubtractModifyRequest.php');
 $req = new ConfirmsubtractModifyRequest();
 //赋值……
 $req->setReqXml("xml请求报文并经过base64编码");

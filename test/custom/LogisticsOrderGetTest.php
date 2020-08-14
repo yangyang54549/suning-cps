@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/custom/LogisticsOrderGetRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/custom/LogisticsOrderGetRequest.php');
 $req = new LogisticsOrderGetRequest();
 //赋值……
 $req->setLogisticExpressId("00620000000177206000");

@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/rejected/VerifycodeAddRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/rejected/VerifycodeAddRequest.php');
 $req = new VerifycodeAddRequest();
 //赋值……
 $req->setChildAccountName("soppre12345@163.com");

@@ -6,7 +6,7 @@
 
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/item/PicDeleteRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/item/PicDeleteRequest.php');
 
 $req = new PicDeleteRequest(); 
 $req -> setPicUrl("http://10.19.95.100/uimg/sop/commodity/201405291612066213_x.jpg");

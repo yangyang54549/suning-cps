@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/transaction/ReplyCmReviewAddRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/transaction/ReplyCmReviewAddRequest.php');
 $req = new ReplyCmReviewAddRequest();
 //赋值……
 $req->setCommodityReviewId("111");

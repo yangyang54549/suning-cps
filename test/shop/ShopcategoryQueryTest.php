@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/shop/ShopcategoryQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/shop/ShopcategoryQueryRequest.php');
 $req = new ShopcategoryQueryRequest();
 //赋值……
 $req->setPageNo("1");

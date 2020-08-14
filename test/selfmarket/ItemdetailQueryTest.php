@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
 $req = new ItemdetailQueryRequest();
 //赋值……
 $req->setApplyCode("dcf6064d-369a-4818-8c15-dbdd52be1984");

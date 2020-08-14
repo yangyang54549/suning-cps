@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
 $req = new RechargehistoryQueryRequest();
 //赋值……
 $req->setReqJson("{id:123,items:[{itemCode:123,itemName:123}]}");

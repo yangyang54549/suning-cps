@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/transaction/LogisticsnewsQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/transaction/LogisticsnewsQueryRequest.php');
 $req = new LogisticsnewsQueryRequest();
 //赋值……
 $req->setLogisticCode('H02');

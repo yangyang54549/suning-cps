@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/logistics/LogisticsCrossbuyInvModifyRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/logistics/LogisticsCrossbuyInvModifyRequest.php');
 $req = new LogisticsCrossbuyInvModifyRequest();
 //赋值……
 $req->setWarehouseCode("L009");

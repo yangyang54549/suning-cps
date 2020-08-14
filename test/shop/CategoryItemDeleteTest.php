@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/shop/CategoryItemDeleteRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/shop/CategoryItemDeleteRequest.php');
 $req = new CategoryItemDeleteRequest();
 //赋值……
 $req->setCategoryCode("100521");

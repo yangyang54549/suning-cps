@@ -6,7 +6,7 @@
 
 // 引入主文件
 require_once ('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/refund/AgreerejectedModifyRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/refund/AgreerejectedModifyRequest.php');
 
 $req = new AgreerejectedModifyRequest();
 $rejectedHead = new RejectedHead();

@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/item/MainproductGetRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/item/MainproductGetRequest.php');
 $req = new MainproductGetRequest();
 //赋值……
 $req->setApplyCode("55s4df54sd");

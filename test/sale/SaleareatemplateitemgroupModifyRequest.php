@@ -5,7 +5,7 @@
  */
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/sale/SaleareatemplateitemgroupModifyRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/sale/SaleareatemplateitemgroupModifyRequest.php');
 
 $req = new SaleareatemplateitemgroupModifyRequest();
 $req -> setTemplateId("51f001d5c7de435683c5b8abaa510b0e5a03e0e2a6844a7d");

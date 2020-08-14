@@ -6,7 +6,7 @@
 
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/item/ItemsaleQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/item/ItemsaleQueryRequest.php');
 
 $req = new ItemsaleQueryRequest(); 
 $req -> setProductName("女装外套");

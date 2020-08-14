@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/pptv/PushOrderAddRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/pptv/PushOrderAddRequest.php');
 $req = new PushOrderAddRequest();
 //赋值……
 $req->setBuyerNick("_82203a3f81a78d1292ef@alipay");

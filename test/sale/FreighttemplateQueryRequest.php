@@ -6,7 +6,7 @@
 
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/sale/FreighttemplateQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/sale/FreighttemplateQueryRequest.php');
 
 $req = new FreighttemplateQueryRequest(); 
 $req->setPageNo("1");

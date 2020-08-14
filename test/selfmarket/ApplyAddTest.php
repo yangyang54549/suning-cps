@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
 $req = new ApplyAddRequest();
 //赋值……
 $req->setBarpic("http://10.19.95.100/uimg/sop/commodity/181223352817344502976922_x.jpg");

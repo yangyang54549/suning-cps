@@ -6,7 +6,7 @@
 
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/inventory/ParallelinvaddressModifyRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/inventory/ParallelinvaddressModifyRequest.php');
 
 $req = new ParallelinvaddressModifyRequest(); 
 $req -> setInvCode("1234");

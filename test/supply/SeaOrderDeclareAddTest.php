@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/supply/SeaOrderDeclareAddRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/supply/SeaOrderDeclareAddRequest.php');
 $req = new SeaOrderDeclareAddRequest();
 //赋值……
 $req->setPackageOrderId("1001434507");

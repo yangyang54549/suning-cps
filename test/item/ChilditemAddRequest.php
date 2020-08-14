@@ -6,7 +6,7 @@
 
 // 引入主文件
 require_once ('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/item/ChilditemAddRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/item/ChilditemAddRequest.php');
 
 $req = new ChilditemAddRequest();
 $req -> setParentProductCode("104000339");

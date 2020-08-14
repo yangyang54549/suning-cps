@@ -6,7 +6,7 @@
 
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/inventory/InvaddressGetRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/inventory/InvaddressGetRequest.php');
 
 $req = new InvaddressGetRequest(); 
 $req -> setInvAddrId("100002216");

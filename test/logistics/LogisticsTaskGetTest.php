@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/logistics/LogisticsTaskGetRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/logistics/LogisticsTaskGetRequest.php');
 $req = new LogisticsTaskGetRequest();
 //赋值……
 $req->setLadingBill("4ca21c236f2e42e6a9c014a060429905");

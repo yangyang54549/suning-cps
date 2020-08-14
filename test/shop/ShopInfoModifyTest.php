@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/shop/ShopInfoModifyRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/shop/ShopInfoModifyRequest.php');
 $req = new ShopInfoModifyRequest();
 //赋值……
 $req->setPlacard("心心相印");

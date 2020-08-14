@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/transaction/OrderdelayModifyRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/transaction/OrderdelayModifyRequest.php');
 $req = new OrderdelayModifyRequest();
 //赋值……
 $req->setExpressNo('B030103');

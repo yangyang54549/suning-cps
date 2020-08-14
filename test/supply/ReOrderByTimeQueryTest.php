@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/supply/ReOrderByTimeQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/supply/ReOrderByTimeQueryRequest.php');
 $req = new ReOrderByTimeQueryRequest();
 //赋值……
 $req->setStartTime("2015-06-10 00:00:00");

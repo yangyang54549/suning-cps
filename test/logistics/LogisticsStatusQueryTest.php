@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/logistics/LogisticsStatusQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/logistics/LogisticsStatusQueryRequest.php');
 $req = new LogisticsStatusQueryRequest();
 //赋值……
 $req->setPageNo("1");

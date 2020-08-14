@@ -5,7 +5,7 @@
  */
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/sale/SaleareatemplateitemgroupQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/sale/SaleareatemplateitemgroupQueryRequest.php');
 
 $req = new SaleareatemplateitemgroupQueryRequest(); 
 $req->setPageNo("1");

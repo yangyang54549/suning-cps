@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
 $req = new CategoryredictGetRequest();
 //赋值……
 $req->setCmTitle("莱珍斯450ml圆珠腰形啤酒杯玻璃杯扎啤杯多用果汁杯水杯冷饮杯创意家居");

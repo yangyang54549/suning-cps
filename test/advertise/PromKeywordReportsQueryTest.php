@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/advertise/PromKeywordReportsQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/advertise/PromKeywordReportsQueryRequest.php');
 $req = new PromKeywordReportsQueryRequest();
 //赋值……
 $req->setPromotionStartDate("2016-05-26");

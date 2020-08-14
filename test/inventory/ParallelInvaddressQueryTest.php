@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/inventory/ParallelInvaddressQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/inventory/ParallelInvaddressQueryRequest.php');
 $req = new ParallelInvaddressQueryRequest();
 //赋值……
 $req->setPageNo("2");

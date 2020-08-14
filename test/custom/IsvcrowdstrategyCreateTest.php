@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
 $req = new IsvcrowdstrategyCreateRequest();
 //赋值……
 $req->setCrowdId("dc060a5df53d4c159bc2174d431b0417");

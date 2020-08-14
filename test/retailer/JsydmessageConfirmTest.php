@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
 $req = new JsydmessageConfirmRequest();
 //赋值……
 $req->setId("16_200c86ba01b5412d9ef85777d1f4d2d7");

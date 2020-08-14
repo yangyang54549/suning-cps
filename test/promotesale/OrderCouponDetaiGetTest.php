@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/promotesale/OrderCouponDetaiGetRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/promotesale/OrderCouponDetaiGetRequest.php');
 $req = new OrderCouponDetaiGetRequest();
 //赋值……
 $req->setActivityCode("16022314491010000061");

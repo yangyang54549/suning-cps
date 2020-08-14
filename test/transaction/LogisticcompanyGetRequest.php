@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/transaction/LogisticcompanyGetRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/transaction/LogisticcompanyGetRequest.php');
 $req = new LogisticcompanyGetRequest();
 //赋值……
 $req->setCompanyName('EMS');

@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/netalliance/ExtLevelModifyRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/Netalliance/ExtLevelModifyRequest.php');
 $req = new ExtLevelModifyRequest();
 //赋值……
 $req->setMixCustNum("10c84df9c1344a809fc3caee0c429a74");

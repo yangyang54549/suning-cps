@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/transaction/OrderQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/transaction/OrderQueryRequest.php');
 $req = new OrderQueryRequest();
 //赋值……
 $req->setStartTime('2014-04-01 00:00:01');//4月，5月

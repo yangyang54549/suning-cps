@@ -6,7 +6,7 @@
 
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/item/CategoryQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/item/CategoryQueryRequest.php');
 
 $req = new CategoryQueryRequest();
 $req -> setCategoryName("数码电池");

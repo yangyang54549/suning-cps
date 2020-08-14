@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/logistics/LogisticsOutsourcetaskQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/logistics/LogisticsOutsourcetaskQueryRequest.php');
 $req = new LogisticsOutsourcetaskQueryRequest();
 //赋值……
 $req->setStartTime("2014-05-05 10:20:30");

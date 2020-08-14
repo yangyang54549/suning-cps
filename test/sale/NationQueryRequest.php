@@ -6,7 +6,7 @@
 
 // 引入主文件
 require_once ('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/sale/NationQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/sale/NationQueryRequest.php');
 
 $req = new NationQueryRequest();
 $req -> setNationName("中国");

@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/logistics/LogisticsStatusGetRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/logistics/LogisticsStatusGetRequest.php');
 $req = new LogisticsStatusGetRequest();
 //赋值……
 $req->setLogisticOrderId("SNCY0200000008999");

@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/rejected/AgreeRefundModifyRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/rejected/AgreeRefundModifyRequest.php');
 $req = new AgreeRefundModifyRequest();
 //赋值……
 $req->setChildAccountName("soppre12345@163.com");

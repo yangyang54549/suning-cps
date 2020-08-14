@@ -7,7 +7,7 @@
  */
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/transaction/OrderdeliveryAddRquest.php');
+require_once(dirname(__FILE__) . '/../../Request/transaction/OrderdeliveryAddRquest.php');
 $req = new OrderdeliveryAddRquest();
 //赋值……
 $req->setOrderCode('1001369031');

@@ -6,7 +6,7 @@
 
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/sale/FreighttemplateDeleteRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/sale/FreighttemplateDeleteRequest.php');
 
 $req = new FreighttemplateDeleteRequest();
 $req -> setFreightTemplateId("4ddc79a287c34c01b7823a5c725b46af");

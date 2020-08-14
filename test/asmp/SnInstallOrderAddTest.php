@@ -7,8 +7,8 @@
  */
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__).'/../../request/asmp/SnInstallOrderAddRequest.php');
+require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
+require_once(dirname(__FILE__) . '/../../Request/asmp/SnInstallOrderAddRequest.php');
 $req = new SnInstallOrderAddRequest();
 //赋值……
 $req->setRecordGuid("5D21BD501D63793FE1000000C0A8765D");

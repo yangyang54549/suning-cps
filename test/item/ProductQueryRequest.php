@@ -6,7 +6,7 @@
 
 // 引入主文件
 require_once('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/item/ProductQueryRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/item/ProductQueryRequest.php');
 
 $req = new ProductQueryRequest(); 
 $req -> setBrandCode("000C");

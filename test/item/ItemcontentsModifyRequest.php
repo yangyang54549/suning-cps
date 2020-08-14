@@ -6,7 +6,7 @@
 
 // 引入主文件
 require_once ('../../SuningSdk.php');
-require_once(dirname(__FILE__).'/../../request/item/ItemcontentsModifyRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/item/ItemcontentsModifyRequest.php');
 
 $req = new ItemcontentsModifyRequest();
 $req -> setProductCode("dfdfd");
