@@ -26,9 +26,9 @@ class DefaultSuningClient {
 	 */
 	private $format;
 
-	private static $apiVersion = VERSION;
+	private static $apiVersion = "v1.2";
 
-	private static $checkRequest = CHECK_REQ;
+	private static $checkRequest = TRUE;
 
 	private static $signMethod = "md5";
 
@@ -36,31 +36,29 @@ class DefaultSuningClient {
 
 	private static $readTimeout = 30;
 
-	private static $userAgent = USER_AGENT;
+	private static $userAgent = "suning-sdk-php";
 
-	private static $sdkVersion = SDK_VERSION;
+	private static $sdkVersion = "suning-sdk-php-beta0.1";
 
 	private static $accessToken = '';
 
 	/**
 	 * 构造方法
-	 * @param $appKey 应用访问key
-	 * @param $appSecret appKey对应密钥        	
-	 * @param $format 请求、响应格式(xml、json)        	
+	 * @param $appKey
+	 * @param $appSecret
+	 * @param $format (xml、json)
 	 */
 	function __construct($appKey, $appSecret, $format = 'json') {
 		$this -> appKey = $appKey;
 		$this -> appSecret = $appSecret;
-		$this -> format = ! empty($format) ? $format : FORMAT;
+		$this -> format = $format;
 	}
 
-	/**
-	 * 封装头信息及签名
-	 *
-	 * $param array $params
-	 *
-	 * @return array
-	 */
+    /**
+     * 封装头信息及签名
+     * @param $params
+     * @return array
+     */
 	private function generateSignHeader($params) {
 		$signString = '';
 		foreach($params as $k => $v){
@@ -90,15 +88,14 @@ class DefaultSuningClient {
 		return $signDataHeader;
 	}
 
-	/**
-	 * 发送请求
-	 *
-	 * @param string $url        	
-	 * @param json|xml $postFields
-	 *        	$param array $header
-	 * @return json xml
-	 */
-	public static function curl($url, $postFields = null, $header = array()) {
+    /**
+     * 发送请求
+     * @param string $url
+     * @param $postFields
+     * @param array $header
+     * @return mixed
+     */
+	public static function curl($url, $postFields = null, $header = []) {
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_URL, $url);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -120,11 +117,11 @@ class DefaultSuningClient {
 		$response = curl_exec($ch);
 		
 		if(curl_errno($ch)){
-			throw new Exception(curl_error($ch), 0);
+			throw new \Exception(curl_error($ch), 0);
 		}else{
 			$httpStatusCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 			if(200 !== $httpStatusCode){
-				throw new Exception($response, $httpStatusCode);
+				throw new \Exception($response, $httpStatusCode);
 			}
 		}
 		curl_close($ch);
@@ -133,16 +130,15 @@ class DefaultSuningClient {
 
 	/**
 	 * 准备发送的参数及检查验证
-	 *
-	 * @param obj $request        	
-	 * @return json xml
+	 * @param $request
+	 * @return mixed
 	 */
 	public function execute($request) {
 		$checkParam = $request -> getCheckParam();
 		if($checkParam){
 			try{
 				$request -> check();
-			}catch(Exception $e){
+			}catch(\Exception $e){
 				print_r($e ->__toString());
 			}
 		}
@@ -187,7 +183,7 @@ class DefaultSuningClient {
 		// 发起HTTP请求
 		try{
 			$resp = self::curl($this -> serverUrl."/".$request -> getApiMethodName(), $apiParams, $signHeader);
-		}catch(Exception $e){
+		}catch(\Exception $e){
 			print_r($e ->__toString());
 		}
 		
@@ -195,32 +191,9 @@ class DefaultSuningClient {
 	}
 
 	/**
-	 * 设置返回的数据格式，json或xml
-	 *
-	 * $param string $out
-	 * $return void
-	 */
-	public static function setFormatOutput($out) {
-		self::$format = strtolower($out);
-	}
-
-	/**
-	 * 设置接口独立的key和secret
-	 *
-	 * @param unknown $key        	
-	 * @param unknown $secret
-	 *        	$return void
-	 */
-	public function setKeySecret($key, $secret) {
-		$this -> appKey = $key;
-		$this -> appSecret = $secret;
-	}
-
-	/**
 	 * OAuth授权必须设置
-	 *
-	 * @param unknown $accessToken
-	 *        	$return void
+	 * @param $accessToken
+	 * @return void
 	 */
 	public static function setAccessToken($accessToken) {
 		self::$accessToken = $accessToken;
@@ -240,21 +213,5 @@ class DefaultSuningClient {
 
 	public function getFormat() {
 		return $this -> format;
-	}
-
-	public function setAppKey($appKey) {
-		$this -> appKey = $appKey;
-	}
-
-	public function setAppSecret($appSecret) {
-		$this -> appSecret = $appSecret;
-	}
-
-	public function setServerUrl($serverUrl) {
-		$this -> serverUrl = $serverUrl;
-	}
-
-	public function setFormat($format) {
-		$this -> format = $format;
 	}
 }
