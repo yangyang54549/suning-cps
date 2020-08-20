@@ -16,12 +16,21 @@ class SelectSuningRequest
      * 每页条数。取值范围:大于零的整数;最大值：50。默认值：10
      */
     protected $pageSize;
-    
+
     /**
      * 是否参数校验(默认false,测试及生产建议为true)
      */
     protected $checkParam = false;
-    
+
+
+    protected $pageNoMin = 1;
+
+    protected $pageNoMax = 99999;
+
+    protected $pageSizeMin = 10;
+
+    protected $pageSizeMax = 50;
+
     public function getCheckParam() {
 		return $this->checkParam;
 	}
@@ -62,24 +71,24 @@ class SelectSuningRequest
 		$this->pointParams = $pointParams;
 	}
 	
-    public function check($pageNoMin = 1, $pageNoMax = 99999, $pageSizeMin = 10, $pageSizeMax = 50)
+    public function check()
     {
     	// 若为空，设置默认值
     	if (RequestCheckUtil::checkEmpty($this->pageNo)){
-    		$this->pageNo = $pageNoMin;
+    		$this->pageNo = $this->pageNoMin;
     	}
     	
         if (RequestCheckUtil::checkEmpty($this->pageSize)){
-    	    $this->pageSize = $pageSizeMin;
+    	    $this->pageSize = $this->pageSizeMin;
     	} 
     	
         RequestCheckUtil::checkPositiveInteger($this->pageNo, 'pageNo');
-        RequestCheckUtil::checkMinValue($this->pageNo, $pageNoMin, 'pageNo');
-        RequestCheckUtil::checkMaxValue($this->pageNo, $pageNoMax, 'pageNo');
+        RequestCheckUtil::checkMinValue($this->pageNo, $this->pageNoMin, 'pageNo');
+        RequestCheckUtil::checkMaxValue($this->pageNo, $this->pageNoMax, 'pageNo');
 
         RequestCheckUtil::checkPositiveInteger($this->pageSize, 'pageSize');
-        RequestCheckUtil::checkMinValue($this->pageSize, $pageSizeMin, 'pageSize');
-        RequestCheckUtil::checkMaxValue($this->pageSize, $pageSizeMax, 'pageSize');
+        RequestCheckUtil::checkMinValue($this->pageSize, $this->pageSizeMin, 'pageSize');
+        RequestCheckUtil::checkMaxValue($this->pageSize, $this->pageSizeMax, 'pageSize');
     }
 }
 ?>
