@@ -11,22 +11,18 @@ class CommoditycategoryQueryRequest  extends SuningRequest{
 
     private $parentId;
 
-	public function setCommoditycategoryList() {
-		$this->apiParams["commoditycategoryList"] = $this->apiParams;
-	}
-	
 	public function getApiMethodName(){
 		return 'suning.Netalliance.commoditycategory.query';
 	}
-	
+
 	public function getApiParams(){
 		return $this->apiParams;
 	}
-	
+
 	public function check(){
 		//非空校验
 	}
-	
+
 	public function getBizName(){
 		return "queryCommoditycategory";
 	}
@@ -37,7 +33,7 @@ class CommoditycategoryQueryRequest  extends SuningRequest{
 
     public function setGrade($grade) {
         $this->grade = $grade;
-        $this->apiParams["grade"] = $grade;
+        $this->apiParams["commoditycategoryList"][0]["grade"] = $grade;
     }
 
     public function getParentId() {
@@ -46,6 +42,6 @@ class CommoditycategoryQueryRequest  extends SuningRequest{
 
     public function setParentId($parentId) {
         $this->parentId = $parentId;
-        $this->apiParams["parentId"] = $parentId;
+        $this->apiParams["commoditycategoryList"][0]["parentId"] = $parentId;
     }
 }
