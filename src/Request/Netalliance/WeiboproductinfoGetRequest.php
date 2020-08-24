@@ -37,7 +37,7 @@ class WeiboproductinfoGetRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.weiboproductinfo.get';
+		return 'suning.netalliance.weiboproductinfo.get';
 	}
 	
 	public function getApiParams(){

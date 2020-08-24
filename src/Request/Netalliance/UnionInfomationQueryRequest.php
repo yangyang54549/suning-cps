@@ -25,7 +25,7 @@ class UnionInfomationQueryRequest  extends SelectSuningRequest{
 	
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.unioninfomation.query';
+		return 'suning.netalliance.unioninfomation.query';
 	}
 	
 	public function getApiParams(){

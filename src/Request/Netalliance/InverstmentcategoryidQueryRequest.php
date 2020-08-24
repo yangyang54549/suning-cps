@@ -9,7 +9,7 @@ use Suning\Sdk\SuningRequest;
 class InverstmentcategoryidQueryRequest  extends SuningRequest{
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.inverstmentcategoryid.query';
+		return 'suning.netalliance.inverstmentcategoryid.query';
 	}
 	
 	public function getApiParams(){

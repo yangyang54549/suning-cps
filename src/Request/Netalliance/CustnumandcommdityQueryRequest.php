@@ -13,7 +13,7 @@ class CustnumandcommdityQueryRequest  extends SelectSuningRequest{
 	
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.custnumandcommdity.query';
+		return 'suning.netalliance.custnumandcommdity.query';
 	}
 	
 	public function getApiParams(){

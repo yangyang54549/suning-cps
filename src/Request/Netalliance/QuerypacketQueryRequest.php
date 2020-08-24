@@ -23,7 +23,7 @@ class QuerypacketQueryRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.querypacket.query';
+		return 'suning.netalliance.querypacket.query';
 	}
 	
 	public function getApiParams(){

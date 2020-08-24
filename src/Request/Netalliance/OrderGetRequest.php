@@ -37,7 +37,7 @@ class OrderGetRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.order.get';
+		return 'suning.netalliance.order.get';
 	}
 	
 	public function getApiParams(){

@@ -63,7 +63,7 @@ class ExtLevelModifyRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.extlevel.modify';
+		return 'suning.netalliance.extlevel.modify';
 	}
 	
 	public function getApiParams(){

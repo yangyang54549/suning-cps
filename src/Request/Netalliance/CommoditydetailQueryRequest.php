@@ -79,7 +79,7 @@ class CommoditydetailQueryRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.commoditydetail.query';
+		return 'suning.netalliance.commoditydetail.query';
 	}
 	
 	public function getApiParams(){

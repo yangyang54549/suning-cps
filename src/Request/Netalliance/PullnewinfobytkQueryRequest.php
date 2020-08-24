@@ -23,7 +23,7 @@ class PullnewinfobytkQueryRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.pullnewinfobytk.query';
+		return 'suning.netalliance.pullnewinfobytk.query';
 	}
 	
 	public function getApiParams(){

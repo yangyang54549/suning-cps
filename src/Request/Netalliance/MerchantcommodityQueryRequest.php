@@ -41,7 +41,7 @@ class MerchantcommodityQueryRequest  extends SelectSuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.merchantcommodity.query';
+		return 'suning.netalliance.merchantcommodity.query';
 	}
 	
 	public function getApiParams(){

@@ -65,7 +65,7 @@ class KuaishounewpromotionurlGetRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.kuaishounewpromotionurl.get';
+		return 'suning.netalliance.kuaishounewpromotionurl.get';
 	}
 	
 	public function getApiParams(){

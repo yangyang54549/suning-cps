@@ -247,7 +247,7 @@ class SearchcommodityQueryRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.searchcommodity.query';
+		return 'suning.netalliance.searchcommodity.query';
 	}
 	
 	public function getApiParams(){

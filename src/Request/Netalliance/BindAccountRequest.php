@@ -49,7 +49,7 @@ class BindAccountRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.account.bind';
+		return 'suning.netalliance.account.bind';
 	}
 	
 	public function getApiParams(){

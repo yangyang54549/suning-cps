@@ -12,7 +12,7 @@ class JuInfomationQueryRequest  extends SelectSuningRequest{
 	
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.juinfomation.query';
+		return 'suning.netalliance.juinfomation.query';
 	}
 	
 	public function getApiParams(){

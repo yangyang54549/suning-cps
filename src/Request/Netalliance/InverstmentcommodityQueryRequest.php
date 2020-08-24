@@ -107,7 +107,7 @@ class InverstmentcommodityQueryRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.inverstmentcommodity.query';
+		return 'suning.netalliance.inverstmentcommodity.query';
 	}
 	
 	public function getApiParams(){

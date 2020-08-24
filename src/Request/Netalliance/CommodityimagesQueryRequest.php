@@ -51,7 +51,7 @@ class CommodityimagesQueryRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.commodityimages.query';
+		return 'suning.netalliance.commodityimages.query';
 	}
 	
 	public function getApiParams(){

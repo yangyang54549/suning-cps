@@ -23,7 +23,7 @@ class TwittershareurlQueryRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.twittershareurl.query';
+		return 'suning.netalliance.twittershareurl.query';
 	}
 	
 	public function getApiParams(){

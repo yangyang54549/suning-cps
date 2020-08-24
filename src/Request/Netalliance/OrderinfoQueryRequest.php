@@ -55,7 +55,7 @@ class OrderinfoQueryRequest  extends SelectSuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.orderinfo.query';
+		return 'suning.netalliance.orderinfo.query';
 	}
 	
 	public function getApiParams(){

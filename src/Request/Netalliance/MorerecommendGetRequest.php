@@ -107,7 +107,7 @@ class MorerecommendGetRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.morerecommend.get';
+		return 'suning.netalliance.morerecommend.get';
 	}
 	
 	public function getApiParams(){

@@ -80,7 +80,7 @@ class AppletextensionlinkGetRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.appletextensionlink.get';
+		return 'suning.netalliance.appletextensionlink.get';
 	}
 	
 	public function getApiParams(){

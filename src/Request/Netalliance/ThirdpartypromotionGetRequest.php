@@ -65,7 +65,7 @@ class ThirdpartypromotionGetRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.thirdpartygetpromotion.get';
+		return 'suning.netalliance.thirdpartygetpromotion.get';
 	}
 	
 	public function getApiParams(){

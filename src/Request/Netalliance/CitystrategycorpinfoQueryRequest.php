@@ -27,7 +27,7 @@ class CitystrategycorpinfoQueryRequest  extends SelectSuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.citystrategycorpinfo.query';
+		return 'suning.netalliance.citystrategycorpinfo.query';
 	}
 	
 	public function getApiParams(){

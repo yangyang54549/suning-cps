@@ -41,7 +41,7 @@ class RiskmanagementorderQueryRequest  extends SelectSuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.riskmanagementorder.query';
+		return 'suning.netalliance.riskmanagementorder.query';
 	}
 	
 	public function getApiParams(){

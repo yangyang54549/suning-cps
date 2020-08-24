@@ -79,7 +79,7 @@ class HoistinglinkQueryRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.hoistinglink.query';
+		return 'suning.netalliance.hoistinglink.query';
 	}
 	
 	public function getApiParams(){

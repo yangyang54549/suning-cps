@@ -37,7 +37,7 @@ class CouponinfoQueryRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.couponinfo.query';
+		return 'suning.netalliance.couponinfo.query';
 	}
 	
 	public function getApiParams(){

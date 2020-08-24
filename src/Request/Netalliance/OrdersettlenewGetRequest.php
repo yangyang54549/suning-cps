@@ -23,7 +23,7 @@ class OrdersettlenewGetRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.ordersettlenew.get';
+		return 'suning.netalliance.ordersettlenew.get';
 	}
 	
 	public function getApiParams(){

@@ -41,7 +41,7 @@ class TwittersuccessQueryRequest  extends SelectSuningRequest{
 	
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.twittersuccess.query';
+		return 'suning.netalliance.twittersuccess.query';
 	}
 	
 	public function getApiParams(){

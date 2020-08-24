@@ -37,7 +37,7 @@ class ThirdpartyproductQueryRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.thirdpartyproduct.query';
+		return 'suning.netalliance.thirdpartyproduct.query';
 	}
 	
 	public function getApiParams(){

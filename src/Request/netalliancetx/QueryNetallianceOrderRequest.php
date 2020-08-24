@@ -52,7 +52,7 @@ class QueryNetallianceOrderRequest  extends SelectSuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.order.query';
+		return 'suning.netalliance.order.query';
 	}
 	
 	public function getApiParams(){

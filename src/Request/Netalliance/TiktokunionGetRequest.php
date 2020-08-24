@@ -51,7 +51,7 @@ class TiktokunionGetRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.tiktokgetunion.get';
+		return 'suning.netalliance.tiktokgetunion.get';
 	}
 	
 	public function getApiParams(){

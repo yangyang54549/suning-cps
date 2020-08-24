@@ -37,7 +37,7 @@ class PromotionCreateRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.promotion.create';
+		return 'suning.netalliance.promotion.create';
 	}
 	
 	public function getApiParams(){

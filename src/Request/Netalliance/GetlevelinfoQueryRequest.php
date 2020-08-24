@@ -23,7 +23,7 @@ class GetlevelinfoQueryRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.getlevelinfo.query';
+		return 'suning.netalliance.getlevelinfo.query';
 	}
 	
 	public function getApiParams(){

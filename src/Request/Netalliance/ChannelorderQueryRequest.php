@@ -69,7 +69,7 @@ class ChannelorderQueryRequest  extends SelectSuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.channelorder.query';
+		return 'suning.netalliance.channelorder.query';
 	}
 	
 	public function getApiParams(){

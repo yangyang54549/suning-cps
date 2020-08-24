@@ -51,7 +51,7 @@ class ToolsellerAddRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.toolseller.add';
+		return 'suning.netalliance.toolseller.add';
 	}
 	
 	public function getApiParams(){

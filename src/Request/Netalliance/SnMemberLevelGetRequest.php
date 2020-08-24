@@ -35,7 +35,7 @@ class SnMemberLevelGetRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.snmemberlevel.get';
+		return 'suning.netalliance.snmemberlevel.get';
 	}
 	
 	public function getApiParams(){

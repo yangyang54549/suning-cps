@@ -37,7 +37,7 @@ class UnionmemberConfirmRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.unionmember.confirm';
+		return 'suning.netalliance.unionmember.confirm';
 	}
 	
 	public function getApiParams(){

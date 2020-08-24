@@ -37,7 +37,7 @@ class MycommodityselectgroupQueryRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.mycommodityselectgroup.query';
+		return 'suning.netalliance.mycommodityselectgroup.query';
 	}
 	
 	public function getApiParams(){

@@ -55,7 +55,7 @@ class LeaderorderQueryRequest  extends SelectSuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.leaderorder.query';
+		return 'suning.netalliance.leaderorder.query';
 	}
 	
 	public function getApiParams(){

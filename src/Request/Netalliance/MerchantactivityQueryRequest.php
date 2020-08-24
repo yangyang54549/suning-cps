@@ -9,7 +9,7 @@ use Suning\Sdk\SelectSuningRequest;
 class MerchantactivityQueryRequest  extends SelectSuningRequest{
 
 	public function getApiMethodName(){
-		return 'suning.Netalliance.merchantactivity.query';
+		return 'suning.netalliance.merchantactivity.query';
 	}
 	
 	public function getApiParams(){

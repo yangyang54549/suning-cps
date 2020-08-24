@@ -65,7 +65,7 @@ class KuaishouproductinfoGetRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.kuaishouproductinfo.get';
+		return 'suning.netalliance.kuaishouproductinfo.get';
 	}
 	
 	public function getApiParams(){

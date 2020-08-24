@@ -52,7 +52,7 @@ class BacthcustomlinkQueryRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.bacthcustomlink.query';
+		return 'suning.netalliance.bacthcustomlink.query';
 	}
 	
 	public function getApiParams(){

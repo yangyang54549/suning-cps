@@ -118,7 +118,7 @@ class SelectrecommendcommodityQueryRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.selectrecommendcommodity.query';
+		return 'suning.netalliance.selectrecommendcommodity.query';
 	}
 	
 	public function getApiParams(){

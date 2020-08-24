@@ -22,7 +22,7 @@ class JuInfomationGetRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.juinfomation.get';
+		return 'suning.netalliance.juinfomation.get';
 	}
 	
 	public function getApiParams(){

@@ -93,7 +93,7 @@ class ExtensionlinkGetRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.extensionlink.get';
+		return 'suning.netalliance.extensionlink.get';
 	}
 	
 	public function getApiParams(){

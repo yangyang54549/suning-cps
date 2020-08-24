@@ -23,7 +23,7 @@ class UnionInfomationGetRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.unioninfomation.get';
+		return 'suning.netalliance.unioninfomation.get';
 	}
 	
 	public function getApiParams(){

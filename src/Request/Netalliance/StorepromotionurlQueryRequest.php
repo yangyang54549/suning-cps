@@ -79,7 +79,7 @@ class StorepromotionurlQueryRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.storepromotionurl.query';
+		return 'suning.netalliance.storepromotionurl.query';
 	}
 	
 	public function getApiParams(){

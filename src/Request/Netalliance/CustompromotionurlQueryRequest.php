@@ -51,7 +51,7 @@ class CustompromotionurlQueryRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.custompromotionurl.query';
+		return 'suning.netalliance.custompromotionurl.query';
 	}
 	
 	public function getApiParams(){

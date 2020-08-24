@@ -23,7 +23,7 @@ class HomepagepositionurlQueryRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.homepagepositionurl.query';
+		return 'suning.netalliance.homepagepositionurl.query';
 	}
 	
 	public function getApiParams(){

@@ -51,7 +51,7 @@ class QuerypgappletqrcodeurlGetRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.querypgappletqrcodeurl.get';
+		return 'suning.netalliance.querypgappletqrcodeurl.get';
 	}
 	
 	public function getApiParams(){

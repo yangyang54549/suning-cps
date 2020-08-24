@@ -66,7 +66,7 @@ class ChannelcommodityGetRequest  extends SuningRequest{
 	}
 	
 	public function getApiMethodName(){
-		return 'suning.Netalliance.channelcommodity.get';
+		return 'suning.netalliance.channelcommodity.get';
 	}
 	
 	public function getApiParams(){

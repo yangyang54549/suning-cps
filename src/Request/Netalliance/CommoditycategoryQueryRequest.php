@@ -12,7 +12,7 @@ class CommoditycategoryQueryRequest  extends SuningRequest{
     private $parentId;
 
 	public function getApiMethodName(){
-		return 'suning.Netalliance.commoditycategory.query';
+		return 'suning.netalliance.commoditycategory.query';
 	}
 
 	public function getApiParams(){
