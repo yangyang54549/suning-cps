@@ -1,10 +1,9 @@
 <?php
-/**
- * 苏宁开放平台接口 - 网盟订单结算信息查询
- *
- * @author suning
- * @date   2014-10-16
- */
+namespace Suning\Sdk\Request\Netalliancetx;
+
+use Suning\Sdk\SuningRequest;
+use Suning\Sdk\RequestCheckUtil;
+
 class GetNetallianceOrderSettleRequest  extends SuningRequest{
 	
 	/**
@@ -39,5 +38,3 @@ class GetNetallianceOrderSettleRequest  extends SuningRequest{
 	}
 	
 }
-
-?>

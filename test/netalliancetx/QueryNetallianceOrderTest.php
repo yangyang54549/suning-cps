@@ -8,7 +8,7 @@
 // 引入主文件
 require_once(dirname(__FILE__).'/../../SuningSdk.php');
 require_once(dirname(__FILE__) . '/../../DefaultSuningClient.php');
-require_once(dirname(__FILE__) . '/../../Request/netalliancetx/QueryNetallianceOrderRequest.php');
+require_once(dirname(__FILE__) . '/../../Request/Netalliancetx/QueryNetallianceOrderRequest.php');
 $req = new QueryNetallianceOrderRequest();
 //赋值……
 $req->setStartTime("2014-01-10 14:14:12");
